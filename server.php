@@ -1,5 +1,6 @@
 			<?php include 'conn.php';?>
 
+
 			<?php
     if ( $_SERVER['REQUEST_METHOD']=='GET' && realpath(__FILE__) == realpath( $_SERVER['SCRIPT_FILENAME'] ) ) {
         /* 
@@ -9,12 +10,11 @@
         header( 'HTTP/1.0 403 Forbidden', TRUE, 403 );
 
         /* choose the appropriate page to redirect users */
-        die( header( 'location: /bar/notfound.php' ) );
+        die( header( 'location: /http://physiquemafia.in/notfound.php' ) );
 
     }
 	
 	$check_call = mysqli_real_escape_string($connc, $_POST['user_token']);
-	
 	if($check_call === "signup"){
 		
 		$user_name = mysqli_real_escape_string($connc, $_POST['user_name']);
@@ -51,16 +51,40 @@ $row=mysqli_num_rows($result);
 				$_SESSION["userEmail"] = $forSession['userEmail'];
 				$userEmail = $_SESSION["userEmail"];
 				
+				$_SESSION["userPhone"] = $forSession['userPhone'];
+				$userPhone = $_SESSION["userPhone"];
+				
 
- 	$msg = "Login Succes.";
+ 	$msg = "Login Success.";
 	echo json_encode(['code'=>200, 'msg'=>$msg]);
 
   }else{
-				$msg = "Check your username and password.";
-	  			echo json_encode(['code'=>409, 'msg'=>$msg]);
+	  
+ 	$msg = 'Check your username and password.';
+	echo json_encode(['code'=>449, 'msg'=>$msg]);
+				// $data = [];
+				// $data['oode'] = 449;
+				// $data['msg'] = 'Check your username and password.';
+	  			// echo json_encode($data);
 
   }
   
 	}
+	
+	if($check_call === "logout"){
+// remove all session variables
+					 session_start();
+
+session_unset();
+
+// destroy the session
+session_destroy();
+
+
+$msg = 'See you soon.';
+
+	echo json_encode(['code'=>200, 'msg'=>$msg]);
+
+}
 
 ?>

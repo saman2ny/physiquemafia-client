@@ -8,7 +8,7 @@
 			<?php include 'includes/css.php';?>
 
     </head>
-    <body class="width-100">
+    <body class="width-100" >
         <!-- start header -->
        		<?php include 'includes/header.php';?>
         <!-- end header -->
@@ -19,7 +19,7 @@
 
 		
 		   <!-- start contact form -->
-        <section id="contact" class="wow fadeIn p-0 bg-extra-dark-gray" style="margin-top: 100px;">
+        <section id="contact" class="wow fadeIn p-0 bg-extra-dark-gray" style="margin-top: 100px;" onload="checkSign('signin')">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 col-lg-6 cover-background md-height-450px sm-height-350px wow fadeIn" style="background: url(assets/img/web-photos/c2.JPG)"></div>
@@ -75,6 +75,7 @@
 
 
 
+
  $(document).ready(function () {
     $('#user_signin').validate({
       rules: {
@@ -99,11 +100,9 @@
   
  
  function Signinfunction(){
-		  var currentLocationValidation = "http://physiquemafia.in/server.php";
+		  var currentLocationValidation = "http://physiquemafia.in/server";
 		  var user_name  = $("#name").val();
-		  var user_phone  = $("#phone").val();
-		  var user_email  = $("#user_email").val();
-		  var user_password  = $("#user_confirmPassword").val();
+		  var user_password  = $("#password").val();
 		  var user_token = "signin";
 
 
@@ -111,9 +110,11 @@
             type: "POST",
             url: currentLocationValidation,
             dataType: "json",
-            data: {user_token:user_token, user_name:user_name,user_email:user_email, user_phone:user_phone, user_password:user_password},
+			encode: true,
+            data: {user_token:user_token, user_name:user_name, user_password:user_password},
             success : function(data){
-                if (data.code == "200"){
+
+                if (data.code === 200){
 						$("#loading-wrap").hide();
 						toastr.success(data.msg);
 						localStorage.clear();
@@ -122,13 +123,19 @@
 
 
                 } else {
-						$("#loading-wrap").hide();
+						// $("#loading-wrap").hide();
 						toastr.error(data.msg);
-						localStorage.clear();
+						// localStorage.clear();
 					
 
                 }
-            }
+            },
+			 error: function(xhr, status, error) {
+				 console.log(status, "status");
+				 console.log(error, "error");
+      // check status && error
+   }
+   
         });
 									// $("#loading-wrap").hide();
 

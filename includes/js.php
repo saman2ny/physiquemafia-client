@@ -59,6 +59,7 @@
 <script src="http://openexchangerates.github.io/money.js/money.min.js"></script>
 		  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.0.1/js/toastr.js"></script>
 
+        <script type="text/javascript" src="assets/js/server.js"></script>
 
 
 
@@ -136,4 +137,30 @@ function loadHide(finale){
 
 
 }
+
+
+function logout(){
+				  var currentLocationValidation = "http://physiquemafia.in/server";
+
+				  var logout = "logout";
+
+		    $.ajax({
+            type: "POST",
+            url: currentLocationValidation,
+            dataType: "json",
+            data: {checkcall:logout},
+            success : function(data){
+                if (data.code == "200"){
+					$("#loading-wrap").hide();
+					toastr.success(data.msg);
+					localStorage.clear();
+					redirect();
+            }
+			}
+        });
+		
+	
+	}
+
+
 		</script>

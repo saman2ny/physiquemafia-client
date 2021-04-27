@@ -50,11 +50,23 @@
                                                 <div class="col-lg-10 col-md-8 d-flex align-items-center">
                                                     <ul class="hamburger-menu-links alt-font">
                                                         <li><a href="index" title="Home">Home</a></li>
-                                                        <li><a href="about" title="Pages">About Me</a></li>
-                                                        <li><a href="contact" title="Blog">Say Hello</a></li>
-														<li><a href="member" title="Portfolio">Membership</a></li>
-														<li><a href="signup" title="Portfolio">Signup</a></li>
-														<li><a href="signin" title="Portfolio">Login</a></li>
+                                                        <li><a href="about" title="About Me">About Me</a></li>
+                                                        <li><a href="contact" title="Say Hello">Say Hello</a></li>
+														<li><a href="member" title="Membership">Membership</a></li>
+														
+															<?php
+											if (isset($_SESSION['userName']) ) {
+												?>
+													<li><a href="javascript:void(0);">Hi, <?php echo $_SESSION['userName']; ?></a></li>
+													<li><a href="javascript:void(0);"  onclick="logout()">Logout</a></li>  
+
+										
+											<?php }	else{ ?>
+												<li><a href="signin" title="signin">signin</a></li>
+											<li><a href="signup" title="signup">signup</a></li>  
+											
+											<?php } ?>
+											
 
                                                     </ul>
                                                 </div>
