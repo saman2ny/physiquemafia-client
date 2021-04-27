@@ -39,6 +39,44 @@
 		
 		
 		
+		 <!-- start process step style 01 section -->
+        <section class="wow fadeIn">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-7 text-center margin-100px-bottom sm-margin-40px-bottom">
+                        <div class="position-relative overflow-hidden w-100">
+                            <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase">Process Steps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- start process step item -->
+                    <div class="col-12 col-md-4 text-center feature-box-10 sm-margin-20px-bottom wow fadeInUp last-paragraph-no-margin">
+                        <div class="d-inline-block padding-five-all margin-10px-bottom">
+                            <span class="number alt-font border-width-2 border-all border-color-deep-pink rounded-circle letter-spacing-minus-1 text-extra-dark-gray">01</span>
+                        </div>
+                        <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom">Visualize</div>
+                    </div>
+                    <!-- end process step item -->
+                    <!-- start process step item -->
+                    <div class="col-12 col-md-4 text-center feature-box-10 sm-margin-20px-bottom wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.2s">
+                        <div class="d-inline-block padding-five-all margin-10px-bottom">
+                            <span class="number number-center alt-font border-width-2 border-all border-color-deep-pink rounded-circle letter-spacing-minus-1 text-extra-dark-gray">02</span>
+                        </div>
+                        <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom">Believe</div>
+                    </div>
+                    <!-- end process step item -->
+                    <!-- start process step item -->
+                    <div class="col-12 col-md-4 text-center feature-box-10 wow fadeInUp last-paragraph-no-margin" data-wow-delay="0.4s">
+                        <div class="d-inline-block padding-five-all margin-10px-bottom">
+                            <span class="number alt-font border-width-2 border-all border-color-deep-pink rounded-circle letter-spacing-minus-1 text-extra-dark-gray">03</span>
+                        </div>
+                        <div class="alt-font text-medium text-extra-dark-gray margin-10px-bottom">Manifest</div>
+                    </div>
+                    <!-- end process step item -->
+                </div>    
+            </div>
+        </section>
 		
 		
 		

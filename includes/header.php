@@ -62,8 +62,8 @@
 
 										
 											<?php }	else{ ?>
-												<li><a href="signin" title="signin">signin</a></li>
-											<li><a href="signup" title="signup">signup</a></li>  
+												<li><a href="signin" title="signin">Signin</a></li>
+											<li><a href="signup" title="signup">Signup</a></li>  
 											
 											<?php } ?>
 											
