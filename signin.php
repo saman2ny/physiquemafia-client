@@ -57,6 +57,11 @@
 		
 		
 		
+		
+        <!-- start modal pop-up section -->
+     				       		<?php include 'includes/popup.php';?>
+
+        <!-- end modal pop-up section -->
 			<!-- quick contact start -->
 				       		<?php include 'includes/quickcontact.php';?>
 

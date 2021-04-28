@@ -64,6 +64,12 @@
 		
 		
 		
+		
+        <!-- start modal pop-up section -->
+     				       		<?php include 'includes/popup.php';?>
+
+        <!-- end modal pop-up section -->
+		
 			<!-- quick contact start -->
 				       		<?php include 'includes/quickcontact.php';?>
 
@@ -125,11 +131,11 @@
   
  
  function Signupfunction(){
-		  var currentLocationValidation = "http://physiquemafia.in/server.php";
+		  var currentLocationValidation = "http://physiquemafia.in/server";
 		  var user_name  = $("#name").val();
 		  var user_phone  = $("#phone").val();
-		  var user_email  = $("#user_email").val();
-		  var user_password  = $("#user_confirmPassword").val();
+		  var user_email  = $("#email").val();
+		  var user_password  = $("#confirmPassword").val();
 		  var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!

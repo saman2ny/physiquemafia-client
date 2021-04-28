@@ -15,7 +15,86 @@
       });
 	  
 	  
+$(document).ready(function() {
 
+
+      $('#submit').click(function(e){
+		  var currrencyTrail  = $("#currency").val();
+		var currrency  = JSON.stringify(currrencyTrail);
+		  localStorage.setItem('currrency', currrency);
+
+		  var currentLocationValidation = "http://physiquemafia.in/formProcess";
+		  console.log(currentLocationValidation, "currentLocationValidation");
+		  
+	
+
+        e.preventDefault();
+
+        var email = $("#email").val();
+
+
+        $.ajax({
+            type: "POST",
+            url: currentLocationValidation,
+            dataType: "json",
+            data: {email:email},
+            success : function(data){
+                if (data.code == "200"){
+					sendMail(email)
+						// $(".display-success").html("Email Sent Successfully");
+						// $(".display-success").css("display","block");
+						// $('#myModal').modal('hide');
+						// $.cookie('pop', '1');
+
+
+                } else {
+                    $(".display-error").html("<ul>"+data.msg+"</ul>");
+                    $(".display-error").css("display","block");
+                }
+            }
+        });
+
+
+      });
+  });
+  
+  				function sendMail(email){
+						  
+		  var currentLocationSendMail = "http://physiquemafia.in/sendMail";
+		  console.log(currentLocationSendMail, "currentLocationSendMail")
+		  console.log(email, "email")
+		  
+
+					        $.ajax({
+            type: "POST",
+            url: currentLocationSendMail,
+            dataType: "json",
+            data: {email:email},
+            success : function(mail){
+				console.log(mail, "data");
+                if (mail.code == "200"){
+					// sendMail()
+						$(".display-success").html("Email Sent Successfully");
+						$(".display-success").css("display","block");
+						$('#myModal').modal('hide');
+						$.cookie('pop', '1');
+
+
+                } else {
+                    $(".display-error").html("<ul>"+mail.msg+"</ul>");
+                    $(".display-error").css("display","block");
+                }
+            },
+			
+        error: function (textStatus, errorThrown) {
+			console.log(textStatus, "textStatus")
+			console.log(errorThrown, "errorThrown")
+
+        }
+        });
+		
+					}
+					
  // $(document).ready(function() {
      // if ($.cookie('pop') == null) {
          // $('#myModal').modal('show');

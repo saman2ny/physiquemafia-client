@@ -1,5 +1,5 @@
       <!-- title -->
-        <title>Jagadeesh jayaraman offical – Creative Agency, Corporate and Portfolio Multi-purpose Template</title>
+        <title>Jagadeesh jayaraman offical</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
@@ -13,7 +13,4 @@
 		<meta property="og:url" content="http://physiquemafia.in/" />
 		<meta property="og:description" content="Adapt what is useful, reject what is useless, and add what is specifically your own.">
 		<meta property="og:image" content="assets/img/web-photos/300x200.png">
-
-
-
 

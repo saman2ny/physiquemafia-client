@@ -62,6 +62,12 @@
 		
 		
 
+
+        <!-- start modal pop-up section -->
+     				       		<?php include 'includes/popup.php';?>
+
+        <!-- end modal pop-up section -->
+		
        <!-- start footer --> 
 		       		<?php include 'includes/footer.php';?>
         <!-- end footer -->
