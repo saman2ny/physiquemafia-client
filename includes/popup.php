@@ -14,7 +14,7 @@
 					      <div class="col-12 col-lg-12">
                                     <div class="select-style bg-transparent border-color-medium-dark-gray medium-select">
 
-								<select name="currency" id="currency" class="bg-transparent mb-0">
+								<select name="currency" class="currencie" id="currency" class="bg-transparent mb-0">
 										<option value="INR">₹	INR</option>
 										<option value="USD">$	USD</option>
 										<option value="EUR">€	EUR</option>

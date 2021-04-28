@@ -68,7 +68,6 @@
 		   
 				
 		$(document).ready(function(){
-										  console.log("its its");
 
 									  var getCurrency = localStorage.getItem('currrency');
 												  console.log(getCurrency, "1");
@@ -76,12 +75,13 @@
 									 loadHide(getCurrency);
 
 var getCurrencyFinal = JSON.parse(getCurrency);
-$("select#currency").val(getCurrencyFinal);
+$(".currencie").val(getCurrencyFinal);
+$(".currencieFooter").val(getCurrencyFinal);
 
 				
 				
-    $('#currency').change(function(){
-				  var currrencyTrail  = $("#currency").val();
+    $('.currencie').change(function(){
+				  var currrencyTrail  = $(".currencie").val();console.log(currrencyTrail, "currrencyTrail");
 		var currrency  = JSON.stringify(currrencyTrail);
 
     		  localStorage.setItem('currrency', currrency);
@@ -94,11 +94,22 @@ $("select#currency").val(getCurrencyFinal);
     });
 });
 
+
+    $('.currencieFooter').change(function(){
+				  var currrencyTrail  = $(".currencieFooter").val();console.log(currrencyTrail, "currrencyTrail");
+		var currrency  = JSON.stringify(currrencyTrail);
+
+    		  localStorage.setItem('currrency', currrency);
+			  var getCurrencyFinal = localStorage.getItem('currrency');
+			  												  // console.log(getCurrency, "2");
+
+
+			  loadHide(getCurrencyFinal);
+
+    
+});
 function loadHide(finale){
-		// $(".INRValue").hide();
-		// $(".USDValue").hide();
-		// $(".EURValue").hide();
-		// $(".JYPValue").hide();
+	
 
  if(JSON.parse(finale) === "INR"){
 	 

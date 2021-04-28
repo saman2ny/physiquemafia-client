@@ -1,5 +1,57 @@
 
 "use strict";
+if(localStorage.getItem("currrency") === null){
+	var currrency  = JSON.stringify("USD");
+
+	  localStorage.setItem('currrencyLoad', currrency);
+	  var x = localStorage.getItem("currrencyLoad");
+
+	  loadHide(x);	
+}
+	
+	  
+	  function loadHide(x){
+	
+
+ if(JSON.parse(x) === "INR"){
+	 
+
+			$(".INRValue").show();
+			$(".USDValue").hide();
+			$(".EURValue").hide();
+			$(".JYPValue").hide();
+ }
+ if(JSON.parse(x) === "USD"){
+
+			$(".USDValue").show();
+			$(".INRValue").hide();
+			$(".EURValue").hide();
+			$(".JYPValue").hide();
+ }
+ if(JSON.parse(x) === "EUR"){
+			$(".USDValue").hide();
+			$(".INRValue").hide();
+			$(".EURValue").show();
+			$(".JYPValue").hide();
+
+ }
+  if(JSON.parse(x) === "JYP"){
+			$(".USDValue").hide();
+			$(".INRValue").hide();
+			$(".EURValue").hide();
+			$(".JYPValue").show();
+
+ }
+ 
+		// $(".JYPValue").show();
+ // }
+									  
+
+
+
+}
+
+	  
  $(window).load(function(){
 	 if ($.cookie('pop') != '1') {
 		          // $('#myModal').modal('show');

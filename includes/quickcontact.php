@@ -1,17 +1,17 @@
     <!-- start call to action section -->
-        <section class="wow fadeIn padding-50px-tb border-top border-color-extra-light-gray">
+	  <section class="padding-50px-tb border-top border-color-extra-light-gray" >
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left wow fadeInDown INRValue"> 
+                    <div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left INRValue"> 
                         <span class="alt-font text-extra-large text-extra-dark-gray margin-5px-top md-no-margin-top d-inline-block width-100">Start your personal training per month  @ ₹12000</span>
                     </div>
-		           <div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left wow fadeInDown USDValue"> 
+		           <div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left USDValue"> 
                         <span class="alt-font text-extra-large text-extra-dark-gray margin-5px-top md-no-margin-top d-inline-block width-100">Start your personal training per month  @ $165</span>
                     </div>
-					<div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left wow fadeInDown EURValue"> 
+					<div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left EURValue"> 
                         <span class="alt-font text-extra-large text-extra-dark-gray margin-5px-top md-no-margin-top d-inline-block width-100">Start your personal training per month  @ €140</span>
                     </div>
-					<div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left wow fadeInDown JYPValue"> 
+					<div class="col-12 col-lg-8 md-margin-30px-bottom text-center text-lg-left JYPValue"> 
                         <span class="alt-font text-extra-large text-extra-dark-gray margin-5px-top md-no-margin-top d-inline-block width-100">Start your personal training per month  @ ¥17962</span>
                     </div>
                     <div class="col-12 col-lg-4 text-center text-lg-left wow fadeInDown"> 

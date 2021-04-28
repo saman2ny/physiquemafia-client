@@ -15,9 +15,9 @@
                     <!-- start logo -->
                     <div class="col-lg-4 col-md-2 text-center sm-margin-20px-bottom">
                         
-                                    <div class="select-style bg-transparent border-color-medium-dark-gray medium-select" style="margin-bottom: 0px !important;">
+                                    <div class="bg-transparent border-color-medium-dark-gray medium-select" style="margin-bottom: 0px !important;">
 
-								<select name="currency" id="currency" class="bg-transparent mb-0">
+								<select name="currency" class="currencieFooter" id="currency" class="bg-transparent mb-0">
 										<option value="INR">₹	INR</option>
 										<option value="USD">$	USD</option>
 										<option value="EUR">€	EUR</option>
