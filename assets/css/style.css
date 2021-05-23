@@ -1912,7 +1912,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .icon-very-small {font-size: 16px}
 .icon-small {font-size: 24px}
 .icon-medium {font-size: 35px}
-.icon-extra-medium {font-size: 40px}
+ .icon-extra-medium {font-size: 25px}  /* already 40px */
 .icon-large {font-size: 50px}
 .icon-round-small {border-radius: 100%; display: table-cell; height: 80px; margin: 0 auto; text-align: center; vertical-align: middle; width: 80px; font-size:32px}
 .icon-round-medium {border-radius: 100%; display: table-cell; height: 90px; margin: 0 auto; text-align: center; vertical-align: middle; width: 90px;}
@@ -3411,7 +3411,7 @@ figure{ margin: 0; }
 .feature-box-18:hover p { opacity: .6;}
 
 /* info banner box style 2 */
-.info-banner-box-2 {position: relative; overflow: hidden; height: 200px;}
+.info-banner-box-2 {position: relative; overflow: hidden; height: 200px;cursor: pointer;}
 .info-banner-box-2 .hover-box {position: absolute; left: 100%; top: 0; height: 100%; transition: ease-in-out 0.5s; -webkit-transition: ease-in-out 0.5s; -moz-transition: ease-in-out 0.5s; -ms-transition: ease-in-out 0.5s; -o-transition: ease-in-out 0.5s;}
 .info-banner-box-2 .content-box {position: absolute; left: 0; top:0; height: 100%; transition: ease-in-out 0.5s; -webkit-transition: ease-in-out 0.5s; -moz-transition: ease-in-out 0.5s; -ms-transition: ease-in-out 0.5s; -o-transition: ease-in-out 0.5s;}
 .info-banner-box-2:hover .hover-box {left: 0}

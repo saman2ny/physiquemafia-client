@@ -174,4 +174,8 @@ function logout(){
 	}
 
 
+function myWhatsapp(plans){
+	window.location.replace('https://api.whatsapp.com/send?phone=+918939775102&text=Hi,%2C%20am%2C%20looking%2C%20for%2C%20'+plans+'%2C%20plan!');
+
+}
 		</script>

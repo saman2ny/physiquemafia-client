@@ -179,7 +179,170 @@
                 </div>
             </div>
         </section>
-        <!-- end pricing table style 02 section -->
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="big-section bg-light-gray no-padding-bottom wow fadeIn">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-7 text-center margin-100px-bottom sm-margin-40px-bottom">
+                        <div class="position-relative overflow-hidden w-100">
+                            <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase">Monthly Training Plans</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- start feature item -->
+                    <div class="col-12 col-lg-3 p-0 info-banner-box-2 wow fadeInUp" onclick="myWhatsapp('basic')">
+                        <div class="content-box bg-medium-light-gray d-flex align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-3 md-margin-10px-bottom"><i class="icon-tools icon-extra-medium text-medium-gray"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9"> 
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom text-extra-dark-gray">BASIC ONLINE TRAINING</div>
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 INRValue">₹5000</h5>							
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 USDValue">$69</h5>							
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 EURValue">€59</h5>							
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 JYPValue">¥7484</h5>
+									<p class="m-0">1 Month</p>									
+								</div>
+                            </div> 
+                        </div>
+                        <div class="hover-box bg-deep-pink text-white-2 d-flex justify-content-center align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-3 md-margin-10px-bottom"><i class="icon-tools icon-extra-medium text-white-2"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9"> 
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom">Basic online training</div>
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 INRValue">₹5000</h5>							
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 USDValue">$69</h5>							
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 EURValue">€59</h5>							
+                                    <h5 class="m-0 text-extra-dark-gray font-weight-500 JYPValue">¥7484</h5>
+									<p class="m-0">1 Month</p>
+									
+							</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end feature item -->
+                    <!-- start feature item -->
+                    <div class="col-12 col-lg-3 info-banner-box-2 p-0 wow fadeInUp" data-wow-delay="0.2s" onclick="myWhatsapp('standard')">
+                        <div class="content-box bg-extra-light-gray d-flex align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-3 md-margin-10px-bottom"><i class="icon-heart icon-extra-medium text-medium-gray"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9">
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom text-extra-dark-gray">Standard online training</div>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 INRValue">₹12000</h4>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 USDValue">$165</h4>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 EURValue">€140</h4>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 JYPValue">¥17962</h4>
+									<p class="m-0">3 Months</p>
+								
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hover-box bg-deep-pink text-white-2 d-flex justify-content-center align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-3 md-margin-10px-bottom"><i class="icon-heart icon-extra-medium text-white-2"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9">
+                                  <div class="alt-font text-medium font-weight-600 margin-5px-bottom text-extra-dark-gray">Standard online training</div>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 INRValue">₹12000</h4>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 USDValue">$165</h4>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 EURValue">€140</h4>
+									<h4 class="text-extra-dark-gray font-weight-500 mb-0 JYPValue">¥17962</h4>
+									<p class="m-0">3 Months</p>
+									
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end feature item -->
+                    <!-- start feature item -->
+                    <div class="col-12 col-lg-3 info-banner-box-2 p-0 wow fadeInUp" data-wow-delay="0.4s" onclick="myWhatsapp('business')">
+                        <div class="content-box bg-medium-light-gray d-flex align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-2 md-margin-10px-bottom"><i class="icon-layers icon-extra-medium text-medium-gray"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9">
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom text-extra-dark-gray">Business online training</div>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 INRValue">₹24000</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 USDValue">$331</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 EURValue">€280</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 JYPValue">¥35925</h4>
+										<p class="m-0">6 Months</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hover-box bg-deep-pink text-white-2 d-flex justify-content-center align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-3 md-margin-10px-bottom"><i class="icon-layers icon-extra-medium text-white-2"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9">
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom">Business online training</div>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 INRValue">₹24000</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 USDValue">$331</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 EURValue">€280</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 JYPValue">¥35925</h4>
+										<p class="m-0">6 Months</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end feature item -->
+					<!-- start feature item -->
+                    <div class="col-12 col-lg-3 info-banner-box-2 p-0 wow fadeInUp" data-wow-delay="0.6s"onclick="myWhatsapp('ultimate')">
+                        <div class="content-box bg-extra-light-gray d-flex align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-2 md-margin-10px-bottom"><i class="icon-layers icon-extra-medium text-medium-gray"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9">
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom text-extra-dark-gray">Ultimate online training</div>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 INRValue">₹45000</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 USDValue">$620</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 EURValue">€524</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 JYPValue">¥67360</h4>
+										<p class="m-0">12 Months</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hover-box bg-deep-pink text-white-2 d-flex justify-content-center align-items-center w-100 padding-50px-lr lg-padding-20px-lr md-padding-50px-lr sm-padding-15px-lr">
+                            <div class="row m-0 width-100">
+                                <div class="col-12 col-xl-2 col-lg-3 md-margin-10px-bottom"><i class="icon-layers icon-extra-medium text-white-2"></i></div>
+                                <div class="col-12 col-xl-10 col-lg-9">
+                                    <div class="alt-font text-medium font-weight-600 margin-5px-bottom">Ultimate online training</div>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 INRValue">₹45000</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 USDValue">$620</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 EURValue">€524</h4>
+										<h4 class="text-extra-dark-gray font-weight-500 mb-0 JYPValue">¥67360</h4>
+										<p class="m-0">12 Months</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end feature item -->
+                </div>
+            </div>
+        </section>
+		
+	   <!-- end pricing table style 02 section -->
         <!-- end price box section -->  
 		
 		

@@ -53,7 +53,7 @@ if(localStorage.getItem("currrency") === null){
 
 	  
  $(window).load(function(){
-	 if ($.cookie('pop') != '1') {
+	 if ($.cookie('pop') == '1') {
 		          // $('#myModal').modal('show');
 		
 	
