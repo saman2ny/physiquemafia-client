@@ -27,7 +27,7 @@
 		$status = "1";
 
 		
-			$result = mysqli_query($connc, "INSERT INTO physiquemafiausers (userName,userEmail,userPhone,userPassword,createdDate,status) VALUES 
+			$result = mysqli_query($connc, "INSERT INTO physique_mafia_users (userName,userEmail,userPhone,userPassword,createdDate,status) VALUES 
 				('$user_name', '$user_email','$user_phone','$user_password','$final_date', '$status')");
 					  	$msg = "Registerd Succesfully.";
 						
@@ -40,7 +40,7 @@
 		$user_name = trim($_POST['user_name']);
 $user_password = trim($_POST['user_password']);
 
-$result = mysqli_query($connc ,"SELECT * FROM physiquemafiausers WHERE  ( userName='$user_name' OR userEmail = '$user_name' OR userPhone = '$user_name') and userPassword='$user_password' ") ;
+$result = mysqli_query($connc ,"SELECT * FROM physique_mafia_users WHERE  ( userName='$user_name' OR userEmail = '$user_name' OR userPhone = '$user_name') and userPassword='$user_password' ") ;
 $row=mysqli_num_rows($result);
   if($row > 0){
 				$forSession=mysqli_fetch_array($result);
